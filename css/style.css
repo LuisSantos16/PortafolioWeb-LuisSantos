@@ -46,3 +46,22 @@
     margin: 0 auto;
 }
 
+.flexbox{
+    display: flex;
+}
+
+.flexbox--centered-sides{
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img{
+    display: block;
+    object-fit: cover;
+}
+
+.img--logo{
+    width: auto;
+    height: calc(var(--element-size) * 3);
+    border-radius: 50%
+}
